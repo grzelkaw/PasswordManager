@@ -1,0 +1,19 @@
+USE [projekt]
+GO
+
+/****** Object:  Table [dbo].[Uzytkownicy]    Script Date: 25.01.2024 20:52:06 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Uzytkownicy](
+	[EMail] [varchar](50) NULL,
+	[Haslo] [varchar](max) NULL,
+	[UzytkownikID] [int] NULL,
+	[Telefon] [int] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
